@@ -21,7 +21,7 @@ const sliderData = [
 export default function Page() {
   return (
     <main>
-      <ImageSlider sliders={sliderData} duration={80000} />
+      <ImageSlider sliders={sliderData} duration={8000} />
       <h1>Hello, Next.js!</h1>
     </main>
   );
